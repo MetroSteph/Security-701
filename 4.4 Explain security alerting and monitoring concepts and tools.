@@ -18,7 +18,7 @@ o Alert tuning
 - Security Content Automation
 Protocol (SCAP)
 - Benchmarks
-- Agents/agentless
+- Agents/agentless - A agent is a software component installed on a device to perform security-related actions such as scanning and reporting, restarting and rebooting systems, applying software patches, making configuration changes and monitoring systems.
 - Security information and event
 management (SIEM)
 - Antivirus

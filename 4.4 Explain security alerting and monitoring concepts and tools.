@@ -17,8 +17,9 @@ o Alert tuning
 • Tools
 - Security Content Automation
 Protocol (SCAP)
-- Benchmarks
+- Benchmarks - Applies best security pratices to everything such as operating systems, cloud providers, mobile devices, etc. An exmaple of a security benchmark for a mobile device would be, disabling screenshots, screen recordings, prevent voice calls when locked, force encryption backups, disable additional VPN profiles, configure a "lost phone" message etc.
 - Agents/agentless - A agent is a software component installed on a device to perform security-related actions such as scanning and reporting, restarting and rebooting systems, applying software patches, making configuration changes and monitoring systems.
+A agentless is a 
 - Security information and event
 management (SIEM)
 - Antivirus
@@ -26,4 +27,4 @@ management (SIEM)
 - Simple Network Management
 Protocol (SNMP) traps
 - NetFlow
-- Vulnerability scanners - Identifies security weaknesses in systems, networks, and applications, very useful in large environments with hundreds or thousands of devices that have different vulnerabilities that need to be patched
+- Vulnerability scanners - Identifies security weaknesses in systems, networks, and applications that are sent to a management system to automate the process to patch those systems. Very useful in large environments with hundreds or thousands of devices that have different vulnerabilities that need to be patched.

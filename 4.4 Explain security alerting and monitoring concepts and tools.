@@ -16,15 +16,14 @@ o Alert tuning
 
 • Tools
 - Security Content Automation
-Protocol (SCAP)
+Protocol (SCAP) - Allows for these vulnerabilities to integrate in a single language where all devices can understand, for example if you find a vulnerability with a next gen firewall, an intrusion prevention system,and a vulnerability scanner, SCAP will allow all of those devices to identify them as exactly the same vulnerability, which also means that these very diverse security tools can now work together and automatically detect and remove these vulnerabilities.
 - Benchmarks - Applies best security pratices to everything such as operating systems, cloud providers, mobile devices, etc. An exmaple of a security benchmark for a mobile device would be, disabling screenshots, screen recordings, prevent voice calls when locked, force encryption backups, disable additional VPN profiles, configure a "lost phone" message etc.
-- Agents/agentless - A agent is a software component installed on a device to perform security-related actions such as scanning and reporting, restarting and rebooting systems, applying software patches, making configuration changes and monitoring systems.
-A agentless is a 
-- Security information and event
-management (SIEM)
+- Agents/agentless - A agent is a software component that is installed on a device to perform security-related actions such as scanning and reporting, restarting and rebooting systems, applying software patches, making configuration changes and monitoring systems. one of the advanatages of having this agent-based system is that it's always running on while making sure the system is always in complience, it will also need to be maintained and updated.
+A agentless runs without a formal install, usually runs when you log in or connect to something similar to a VPN concentrator - (a network device that manages VPN traffic for multiple users, allowing remote workers to securely access a corporate network). The agentless will then execute in the memory of that system to check and verify that is in in compliance which will automatically remove itself from the system. Since it doesnt need to be formally installed you do not need to provide any ongoing maintenance of that software, it will also not be running 24/7.
+- Security information and event management (SIEM) - STEM is commonly used to combine log files to a centrol database, which is used to create numerous reports to give an idea on how security is running on networks. SIEM includes a very powerful reporting engine, which gives reports on prefomance for firewall and how a VPN concentrator may be authenticationg. we are also able to combine seperate data types, 
 - Antivirus
 - Data loss prevention (DLP)
 - Simple Network Management
 Protocol (SNMP) traps
 - NetFlow
-- Vulnerability scanners - Identifies security weaknesses in systems, networks, and applications that are sent to a management system to automate the process to patch those systems. Very useful in large environments with hundreds or thousands of devices that have different vulnerabilities that need to be patched.
+- Vulnerability scanners - Identifies security weaknesses in systems, networks, and applications that are sent to a management system to automate the process to patch those systems without any human intervention. Very useful in large environments with hundreds or thousands of devices that have different vulnerabilities that need to be patched.

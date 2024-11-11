@@ -1,6 +1,6 @@
 • Monitoring computing resources
-- Systems
-- Applications
+- Systems - Monitor authentications and view where people are logging in from. 
+- Applications- 
 - Infrastructure
 
 • Activities
@@ -20,10 +20,9 @@ Protocol (SCAP) - Allows for these vulnerabilities to integrate in a single lang
 - Benchmarks - Applies best security pratices to everything such as operating systems, cloud providers, mobile devices, etc. An exmaple of a security benchmark for a mobile device would be, disabling screenshots, screen recordings, prevent voice calls when locked, force encryption backups, disable additional VPN profiles, configure a "lost phone" message etc.
 - Agents/agentless - A agent is a software component that is installed on a device to perform security-related actions such as scanning and reporting, restarting and rebooting systems, applying software patches, making configuration changes and monitoring systems. one of the advanatages of having this agent-based system is that it's always running on while making sure the system is always in complience, it will also need to be maintained and updated.
 A agentless runs without a formal install, usually runs when you log in or connect to something similar to a VPN concentrator - (a network device that manages VPN traffic for multiple users, allowing remote workers to securely access a corporate network). The agentless will then execute in the memory of that system to check and verify that is in in compliance which will automatically remove itself from the system. Since it doesnt need to be formally installed you do not need to provide any ongoing maintenance of that software, it will also not be running 24/7.
-- Security information and event management (SIEM) - STEM is commonly used to combine log files to a centrol database, which is used to create numerous reports to give an idea on how security is running on networks. SIEM includes a very powerful reporting engine, which gives reports on prefomance for firewall and how a VPN concentrator may be authenticationg. we are also able to combine seperate data types, 
-- Antivirus
-- Data loss prevention (DLP)
-- Simple Network Management
-Protocol (SNMP) traps
-- NetFlow
-- Vulnerability scanners - Identifies security weaknesses in systems, networks, and applications that are sent to a management system to automate the process to patch those systems without any human intervention. Very useful in large environments with hundreds or thousands of devices that have different vulnerabilities that need to be patched.
+- Security information and event management (SIEM) - STEM is commonly used to combine log files to a centrol database, which is used to create numerous reports to give an idea on how security is running on networks. SIEM includes a very powerful reporting engine, that will allow us to combine sperate data types, will gives reports on prefomance for firewall and how a VPN concentrator may be authenticationg. Eventually this informaton will be stored into a large database over a long period of time that can be used to create a forensice report to show what happaneded prior to a particular security event and allow us to search back and see what information might be available to help us understand how an event occured. 
+- Antivirus -Software that is created specifically to help detect, prevent and remove malware (malicious software like torjoans, worms, macro viruses etc) 
+- Data loss prevention (DLP) - Used to block any type of data you do not want running your network such as social security numbers, credit cards, medical records etc. DLP is used to contantly monitor the traffic in real time to block any sensitive inforamtion from leaving your network.
+- Simple Network Management Protocol (SNMP) traps - An SNMP trap is a message that’s sent from a network device to an SNMP management system without being solicited by the system. The trap is triggered when a specific event or condition occurs on the device, such as a link going down, an authentication or a power failure.
+- NetFlow - Used to collect IP traffic information and monitor network flow.
+- Vulnerability scanners - Identifies security flaws in systems, networks, and applications that are sent to a management system to automate the process to patch those systems without any human intervention. Very useful in large environments with hundreds or thousands of devices that have different vulnerabilities that need to be patched.

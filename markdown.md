@@ -40,7 +40,7 @@ Alert response is the immediate action taken to reduce the impact of an incident
 
 ## Tools
 
-### - Security Content Automation Protocol (SCAP):
+### Security Content Automation Protocol (SCAP):
 Allows for these vulnerabilities to integrate in a single language where all devices can understand, for example if you find a vulnerability with a next gen firewall, an intrusion prevention system,and a vulnerability scanner, SCAP will allow all of those devices to identify them as exactly the same vulnerability, which also means that these very diverse security tools can now work together and automatically detect and remove these vulnerabilities.
 
 ### Benchmarks:

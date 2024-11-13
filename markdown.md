@@ -3,10 +3,10 @@
 ## Monitoring Computer Resources
  (Monitor all entry points such as logins, publicly available services, data storage locations, remote access. React to security events like account access, firewall rulebase, additional scanning)
 
- ### Systems: 
+ ### Systems:
  Monitor authentications and view where people are logging in from, also monitor the services that are running on the devices including the type of activity and how much activity. You can also check if any backups have been completed on devices and what versions of software are installed. 
 
-### Applications: 
+### Applications:
  Major part of monitoring is checking availability and making sure these systems are running, keeps lines of communication open between the software and developers or manufacturers of these applications to be notified of any security issues. Many security breaches have been identified by monitroring the amount of traffic that is being transfered, higher traffic than ususal could indicate a possible attacker attempting to exfiltrate data. 
 
 ### Infrastructure:
@@ -63,8 +63,8 @@ Is used to block any type of data you do not want running your network such as s
 ### Simple Network management Protocol (SNMP) Traps:
 An SNMP trap is a message that’s sent from a network device to an SNMP management system without being solicited by the system. The trap is triggered when a specific event or condition occurs on the device, such as a link going down, an authentication or a power failure.
 
-### NetFlow: 
+### NetFlow:
 Is used to collect IP traffic information and monitor network flow.
 
-### Vulnerability scanners: 
+### Vulnerability scanners:
 Automated detection of security weaknessess in systems, networks, and applications that are sent to a management system to automate the process to patch those systems without any human intervention. Very useful in large environments with hundreds or thousands of devices that have different vulnerabilities that need to be patched.

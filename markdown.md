@@ -58,7 +58,7 @@ SIEM is commonly used to combine log files to a centrol database, which is used 
 Software that is created specifically to help detect, prevent and remove malware (malicious software like torjoans, worms, macro viruses etc)
 
 ### Data loss prevention (DLP):
-Used to block any type of data you do not want running your network such as social security numbers, credit cards, medical records etc. DLP is used to contantly monitor the traffic in real time to block any sensitive inforamtion from leaving your network.
+Used to block any type of data you do not want running your network such as social security numbers, credit cards, medical records etc. DLP is utilized contantly to monitor the traffic in real time to block any sensitive inforamtion from leaving your network.
 
 ### Simple Network management Protocol (SNMP) Traps:
 An SNMP trap is a message that’s sent from a network device to an SNMP management system without being solicited by the system. The trap is triggered when a specific event or condition occurs on the device, such as a link going down, an authentication or a power failure.

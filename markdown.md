@@ -32,6 +32,7 @@ A long term backup that is critical to access. Organizations may be mandated to 
 
 ### Alert Response/Remediation/Valdation:
 Alert response is the immediate action taken to reduce the impact of an incident, while remediation is the steps taken after the initial response to recover, learn from, and prevent future incidents. lastly, validation involves verifying that remediation actions have solved the problem.
+
 - Quarantine: Once an alarm has been generated its important to quarantine that system from eveything else on the network and prevent an attacker from gaining additional access to that particular system and prevent anyone on that system jumping out to other devices on the same network.
 
 - Alert tuning: An ongoing challenge for anyone trying to put together alerting or alarming. This is usually known as a balancing act, where you'd like to be able to view real time alarms and alerts but have some of those alerts that are not actually accurate that are known as a "false positive". There could be certain events that arent logged and therefore dont create an alert refered as a "false negative". It takes time to tune these alerts for your particular network but once done you can start making immediate decisions about the information provided in those alarms.
